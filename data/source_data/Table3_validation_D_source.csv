@@ -1,0 +1,7 @@
+﻿city,profile,origin_n,sampling_design,scope_contrast,threshold_min,estimate_pp,design_ci_lower_pp,design_ci_upper_pp,source_table,source_data_row
+Sao Paulo,baseline_fixed_departure,220,stratified_SRS,registry minus equipment-SUS,30,21.58019422757837,15.276223510211384,27.884164944945354,mode_scope_contrasts.csv,39
+Sao Paulo,validation_weekday,220,stratified_SRS,registry minus equipment-SUS,30,21.44255740656037,15.1404251261963,27.74468968692444,mode_scope_contrasts.csv,61
+Sao Paulo,validation_weekend,220,stratified_SRS,registry minus equipment-SUS,30,22.054016405700054,15.742177304394767,28.365855507005342,mode_scope_contrasts.csv,83
+Bogota,baseline_fixed_departure,200,stratified_SRS,registry minus linked public-provider,30,37.47147637878611,30.0630904416746,44.87986231589761,mode_scope_contrasts.csv,6
+Bogota,validation_weekday,200,stratified_SRS,registry minus linked public-provider,30,35.30888938160877,28.02219167039684,42.5955870928207,mode_scope_contrasts.csv,17
+Bogota,validation_weekend,200,stratified_SRS,registry minus linked public-provider,30,40.33553700844585,32.86874428169679,47.8023297351949,mode_scope_contrasts.csv,28

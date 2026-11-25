@@ -1,0 +1,36 @@
+{
+  "note": "Recorded fingerprints identify original private-workspace inputs, not distributed files. They do not guarantee a provider still serves that snapshot.",
+  "regional_transit_inputs": {
+    "osm": {
+      "source_sha256": "7cdd9380d4924f603a91ddcf99cc14fc6a8d2cb2c134c697e0689cca15feaaef",
+      "source_bytes": 176634892
+    },
+    "sptrans_gtfs": {
+      "source_sha256": "45f3cc1ca7d118a282c2a473dc6ed23c0555c27327fadcb12a29aa90f1945206",
+      "source_bytes": 12758229
+    },
+    "artesp_gtfs": {
+      "source_sha256": "018af485a0de7a6e13d483b6545ed48cd23b6ce9100adfbadad2fa0e0d5b4e42",
+      "source_bytes": 46619813
+    },
+    "build_config": {
+      "source_sha256": "ab78bcb2839a9c19a34b789bdd140178454edbfa48fcd0cb737b51e1884373fa",
+      "source_bytes": 110
+    },
+    "router_config": {
+      "source_sha256": "53c4192893e7d61635d9378de68656adf8b88623a8b7f00490130d2aeacab64d",
+      "source_bytes": 147
+    },
+    "otp_jar": {
+      "source_sha256": "7967fcac8ded01de49d95e1776bf233345a0d5e364c140399e67c0506a8650d9",
+      "source_bytes": 177096338
+    }
+  },
+  "regional_transit_graph_sha256": "aacbaeb4f227172a82ebe57b6eb6d78defcaf1fb49e8b66792f5146193f495e8",
+  "Bogota_GHSL_raster": {
+    "name": "GHS_POP_E2025_GLOBE_R2023A_4326_30ss_V1_0.tif",
+    "sha256": "6a3dac929afc5f5f77893c81b6e2a0c4771d76e267d2a2a19ade526f0e25ddc2",
+    "n_values_checked": 1057,
+    "maximum_population_difference": 0.0
+  }
+}

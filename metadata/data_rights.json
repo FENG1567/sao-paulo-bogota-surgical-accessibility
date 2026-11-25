@@ -1,0 +1,44 @@
+{
+  "default_author_contributions": "CC-BY-4.0",
+  "code_and_docs": "MIT",
+  "mixed_derivative_files": [
+    {
+      "path": "data/source_data/Figure4_origin_classification_source.csv",
+      "city_specific_fields": {
+        "Sao Paulo": {
+          "uid": "IBGE CD2022 census-sector key (may be prefixed by city)",
+          "lat/lon": "Author-calculated EPSG:4326 Shapely representative point of source CD2022 sector, not a centroid or GHSL grid centre",
+          "pop": "IBGE 2022 V0001 whole source-tract total persons; no areal apportionment",
+          "stratum/socioeconomic_group": "Author quintile classification from IBGE V06004; source is responsible-person mean income, not household-total or per-capita income",
+          "design_weight": "Author calculated sampling expansion of source population",
+          "classification": "Author-computed coverage result",
+          "rights": "IBGE attribution and provider terms apply to source fields; author CC BY 4.0 grant covers author calculations/classifications only"
+        },
+        "Bogota": {
+          "uid": "Author grid-origin identifier",
+          "lat/lon": "GHS-POP R2023A projected E2025 30-arcsecond WGS84 cell centre",
+          "pop": "GHS-POP whole positive-cell population (projected population, not a census count)",
+          "stratum/socioeconomic_group": "Author mapping of source residential-block estrato; original polygons not included",
+          "classification": "Author-computed coverage result",
+          "rights": "GHSL/JRC CC BY 4.0 attribution applies to population/grid fields; local estrato retains source attribution/terms; author grant covers author calculations"
+        }
+      }
+    },
+    {
+      "path": "data/source_data/Bogota_primary_origin_classification_source.csv",
+      "source_fields": "Bogota GHSL/JRC R2023A projected E2025 grid-centre coordinates/population and source ManzanaEstratificacion-derived estrato",
+      "author_fields": "Computed socioeconomic group, mapped-area fraction, area-weighted estrato summary and sensitivity classifications; this file contains no route coverage outcome",
+      "terms": "Same mixed-derivative rule; original estrato polygons excluded"
+    }
+  ],
+  "excluded": [
+    "patient-level data",
+    "licensed fonts",
+    "original facility directories",
+    "raw claims",
+    "original GTFS/OSM/population/geography archives",
+    "route caches",
+    "internal correspondence and review logs"
+  ],
+  "estimation_inputs": "data/estimation/times_primary.csv contains author-computed route minima/status and sampling design metadata with direct geographic identifiers removed. Source population fields: Sao Paulo IBGE CD2022 V0001; Bogota GHSL/JRC R2023A projected E2025. Source strata derive from IBGE income (SP) and Secretaria Distrital de Planeacion ManzanaEstratificacion (BO). No patient data; pseudonymous area records may be re-linkable via retained public area characteristics. Author CC BY covers author calculations only; source attribution/terms retained."
+}

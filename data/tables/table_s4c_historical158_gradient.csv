@@ -1,0 +1,5 @@
+"Comparison frame","Inventory scope","Low-group WT coverage (%)","High-group WT coverage (%)","Low minus high (pp)"
+"Primary 142 sites","Registry-based destinations (R)",68.97,97.67,-28.70
+"Primary 142 sites","Linked public-provider destinations (E)",62.38,15.73,46.65
+"Historical 158-site capacity frame","Registry-based destinations (R)",68.97,97.67,-28.70
+"Historical 158-site capacity frame","Linked public-provider destinations (E)",62.38,15.73,46.65

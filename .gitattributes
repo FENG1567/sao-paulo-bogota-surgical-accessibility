@@ -1,0 +1,3 @@
+# Frozen hashes refer to exact bytes, including CSV line endings.
+# Preserve byte identity on Windows and Unix regardless of core.autocrlf.
+* -text

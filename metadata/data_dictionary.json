@@ -1,0 +1,780 @@
+{
+  "files": [
+    {
+      "path": "data/estimation/times_primary.csv",
+      "columns": [
+        "city",
+        "uid",
+        "stratum",
+        "pop",
+        "design_weight",
+        "N_h",
+        "n_h",
+        "inclusion_prob",
+        "scope",
+        "mode",
+        "profile",
+        "time_min",
+        "status",
+        "finite_unknown"
+      ],
+      "rows": 32484
+    },
+    {
+      "path": "data/source_data/Bogota_classification_coverage_curves_source.csv",
+      "columns": [
+        "scenario",
+        "facility_frame",
+        "group",
+        "scope",
+        "mode",
+        "threshold",
+        "cells",
+        "population",
+        "covered_population",
+        "coverage",
+        "city",
+        "profile",
+        "classification_scenario_definition",
+        "socioeconomic_group_definition",
+        "scope_name",
+        "scope_definition",
+        "profile_definition"
+      ],
+      "rows": 1760
+    },
+    {
+      "path": "data/source_data/Bogota_primary_origin_classification_source.csv",
+      "columns": [
+        "uid",
+        "lat",
+        "lon",
+        "pop",
+        "scenario",
+        "socioeconomic_group",
+        "legacy_original_group",
+        "mapped_area_fraction",
+        "mapped_area_weighted_mean_estrato",
+        "stabilized_mapped_area_mean",
+        "classification_scenario",
+        "classification_scenario_definition",
+        "socioeconomic_group_definition",
+        "scope_name",
+        "scope_definition",
+        "profile_definition"
+      ],
+      "rows": 1057
+    },
+    {
+      "path": "data/source_data/Figure1_facility_scenario_counts.csv",
+      "columns": [
+        "city",
+        "scope_label",
+        "facility_count",
+        "raw_E_count",
+        "raw_A_count",
+        "scope_name",
+        "scope_definition",
+        "profile_definition"
+      ],
+      "rows": 5
+    },
+    {
+      "path": "data/source_data/Figure2_main_curve_source.csv",
+      "columns": [
+        "city",
+        "scope",
+        "mode",
+        "profile",
+        "n",
+        "sampling_design",
+        "sampled_population",
+        "estimated_population",
+        "threshold",
+        "coverage_lower",
+        "coverage_upper",
+        "design_se",
+        "design_ci_lower",
+        "design_ci_upper",
+        "scope_name",
+        "scope_definition",
+        "profile_definition"
+      ],
+      "rows": 330
+    },
+    {
+      "path": "data/source_data/Figure2_paired_scope_contrast_source.csv",
+      "columns": [
+        "city",
+        "profile",
+        "scope1",
+        "scope2",
+        "sampling_design",
+        "threshold",
+        "contrast",
+        "design_se",
+        "design_ci_lower",
+        "design_ci_upper",
+        "missing_bound_lower",
+        "missing_bound_upper",
+        "scope_name",
+        "scope_definition",
+        "profile_definition"
+      ],
+      "rows": 33
+    },
+    {
+      "path": "data/source_data/Figure3_paired_mode_source.csv",
+      "columns": [
+        "city",
+        "scope",
+        "mode_a",
+        "mode_b",
+        "profile",
+        "threshold",
+        "difference_pp",
+        "design_se_pp",
+        "design_ci_lower_pp",
+        "design_ci_upper_pp",
+        "technical_bound_lower_pp",
+        "technical_bound_upper_pp",
+        "n_paired_origins",
+        "n_input_origins",
+        "n_excluded_for_estimate",
+        "sampling_design",
+        "technical_bounds_are_not_ci",
+        "comparison",
+        "scope_name",
+        "scope_definition",
+        "profile_definition"
+      ],
+      "rows": 220
+    },
+    {
+      "path": "data/source_data/Figure4_income_gradient_source.csv",
+      "columns": [
+        "city",
+        "scope",
+        "mode",
+        "profile",
+        "n",
+        "sampling_design",
+        "sampled_population",
+        "estimated_population",
+        "threshold",
+        "poor",
+        "rich",
+        "gradient",
+        "missing_bound_lower",
+        "missing_bound_upper",
+        "design_se",
+        "design_ci_lower",
+        "design_ci_upper",
+        "scenario",
+        "population_low",
+        "population_high",
+        "coverage_low",
+        "coverage_high",
+        "analysis_profile",
+        "scope_name",
+        "scope_definition",
+        "profile_definition"
+      ],
+      "rows": 242
+    },
+    {
+      "path": "data/source_data/Figure4_origin_classification_source.csv",
+      "columns": [
+        "uid",
+        "lat",
+        "lon",
+        "stratum",
+        "pop",
+        "design_weight",
+        "city",
+        "scope",
+        "threshold",
+        "classification",
+        "socioeconomic_group",
+        "classification_scenario",
+        "classification_scenario_definition",
+        "legacy_original_group",
+        "mapped_area_fraction",
+        "mapped_area_weighted_mean_estrato",
+        "socioeconomic_group_definition",
+        "scope_name",
+        "scope_definition",
+        "profile_definition"
+      ],
+      "rows": 5414
+    },
+    {
+      "path": "data/source_data/Figure5_sensitivity_source.csv",
+      "columns": [
+        "city",
+        "scope",
+        "mode",
+        "profile",
+        "n",
+        "sampling_design",
+        "sampled_population",
+        "estimated_population",
+        "threshold",
+        "coverage_lower",
+        "coverage_upper",
+        "design_se",
+        "design_ci_lower",
+        "design_ci_upper",
+        "arm_label",
+        "destination_membership_n",
+        "scope_name",
+        "arm_definition",
+        "source_profile_key",
+        "scope_definition",
+        "profile_definition"
+      ],
+      "rows": 38
+    },
+    {
+      "path": "data/source_data/Figure5_validation_sensitivity_source.csv",
+      "columns": [
+        "city",
+        "scope",
+        "mode",
+        "period",
+        "profile",
+        "threshold",
+        "coverage_lower",
+        "coverage_upper",
+        "design_se",
+        "design_ci_lower",
+        "design_ci_upper",
+        "n",
+        "sampling_design",
+        "sampled_population",
+        "estimated_population",
+        "same_uid_frame_verified",
+        "denominator_metadata_verified",
+        "baseline_from_sameframe_analysis",
+        "arm_label",
+        "destination_membership_n",
+        "scope_name",
+        "arm_definition",
+        "source_profile_key",
+        "scope_definition",
+        "profile_definition"
+      ],
+      "rows": 128
+    },
+    {
+      "path": "data/source_data/SP30_WT_gap_existing_coverage_and_D.csv",
+      "columns": [
+        "city",
+        "metric",
+        "scope",
+        "estimate_pct",
+        "threshold_min",
+        "profile",
+        "source_file",
+        "design_se_pp",
+        "design_ci_lower_pp",
+        "design_ci_upper_pp",
+        "missing_bound_lower_pp",
+        "missing_bound_upper_pp"
+      ],
+      "rows": 3
+    },
+    {
+      "path": "data/source_data/SP30_WT_registry_equipment_gap_by_SES.csv",
+      "columns": [
+        "city",
+        "group",
+        "n_origins",
+        "estimated_group_population",
+        "registry_wt_covered_population_lower",
+        "equipment_sus_wt_uncovered_population_lower",
+        "equipment_sus_wt_uncovered_population_definite",
+        "equipment_route_unknown_population",
+        "gap_origin_count",
+        "weighted_gap_population",
+        "share_of_definite_gap_pct",
+        "within_group_definite_gap_rate_pct",
+        "possible_gap_population_including_equipment_route_unknown",
+        "gap_weighted_median_latitude",
+        "gap_weighted_median_longitude",
+        "gap_weighted_median_nearest_equipment_sus_site_km",
+        "gap_definition",
+        "distance_definition",
+        "weight_definition"
+      ],
+      "rows": 6
+    },
+    {
+      "path": "data/source_data/Table1_population_accounting_source.csv",
+      "columns": [
+        "city",
+        "metric",
+        "estimate",
+        "unit",
+        "statistical_role",
+        "source",
+        "definition"
+      ],
+      "rows": 16
+    },
+    {
+      "path": "data/source_data/Table1_population_facility_source.csv",
+      "columns": [
+        "record_type",
+        "city",
+        "scope",
+        "measure",
+        "estimate",
+        "unit",
+        "source_rows",
+        "route_origin_rows",
+        "design",
+        "unknown_income_origins",
+        "unknown_income_population",
+        "unknown_income_population_share_pct",
+        "definition",
+        "classification_scenario",
+        "scope_name",
+        "scope_definition",
+        "profile_definition"
+      ],
+      "rows": 29
+    },
+    {
+      "path": "data/source_data/Table2_main_15_30_45_source.csv",
+      "columns": [
+        "city",
+        "scope",
+        "mode",
+        "profile",
+        "n",
+        "sampling_design",
+        "sampled_population",
+        "estimated_population",
+        "threshold",
+        "coverage_lower",
+        "coverage_upper",
+        "design_se",
+        "design_ci_lower",
+        "design_ci_upper",
+        "scope_name",
+        "scope_definition",
+        "profile_definition"
+      ],
+      "rows": 90
+    },
+    {
+      "path": "data/source_data/Table3_current_display_source.csv",
+      "columns": [
+        "Departure request (local time)",
+        "São Paulo (n=220): D (95% CI)",
+        "Bogotá (n=200): D (95% CI)"
+      ],
+      "rows": 3
+    },
+    {
+      "path": "data/source_data/Table3_validation_D_source.csv",
+      "columns": [
+        "city",
+        "profile",
+        "origin_n",
+        "sampling_design",
+        "scope_contrast",
+        "threshold_min",
+        "estimate_pp",
+        "design_ci_lower_pp",
+        "design_ci_upper_pp",
+        "source_table",
+        "source_data_row"
+      ],
+      "rows": 6
+    },
+    {
+      "path": "data/source_data/results_coverage_curves_all_profiles_source.csv",
+      "columns": [
+        "city",
+        "scope",
+        "mode",
+        "profile",
+        "n",
+        "sampling_design",
+        "sampled_population",
+        "estimated_population",
+        "threshold",
+        "coverage_lower",
+        "coverage_upper",
+        "design_se",
+        "design_ci_lower",
+        "design_ci_upper",
+        "scope_name",
+        "scope_definition",
+        "profile_definition"
+      ],
+      "rows": 330
+    },
+    {
+      "path": "data/source_data/supplement_figures/FigureS1_car_time_sensitivity_source.csv",
+      "columns": [
+        "city",
+        "profile",
+        "scope",
+        "scenario",
+        "threshold_min",
+        "car_coverage_pct",
+        "car_technical_upper_pct",
+        "wt_coverage_pct",
+        "wt_technical_upper_pct",
+        "car_minus_wt_pp",
+        "technical_delta_lower_pp",
+        "technical_delta_upper_pp",
+        "design_se_pp",
+        "design_ci_lower_pp",
+        "design_ci_upper_pp",
+        "n_origins",
+        "sampling_frame",
+        "scope_name",
+        "scope_definition",
+        "profile_definition"
+      ],
+      "rows": 110
+    },
+    {
+      "path": "data/source_data/supplement_figures/FigureS2a_activity_expansion_source.csv",
+      "columns": [
+        "city",
+        "profile",
+        "activity_set_pair",
+        "base_scope",
+        "extra_scope",
+        "base_site_count",
+        "extra_site_count",
+        "mode",
+        "threshold_min",
+        "n_origins",
+        "estimated_population",
+        "sampling_design",
+        "gain_estimate_pp",
+        "design_se_pp",
+        "design_ci95_lower_pp",
+        "design_ci95_upper_pp",
+        "technical_bound_lower_pp",
+        "technical_bound_upper_pp",
+        "ht_population_gain_point",
+        "ht_population_gain_lower_bound",
+        "ht_population_gain_upper_bound",
+        "marginal_curve_gain_check_pp",
+        "covariance",
+        "scope_name",
+        "scope_definition",
+        "profile_definition"
+      ],
+      "rows": 9
+    },
+    {
+      "path": "data/source_data/supplement_figures/FigureS2b_regional_sensitivity_source.csv",
+      "columns": [
+        "city",
+        "scope",
+        "mode",
+        "threshold_min",
+        "group",
+        "n",
+        "baseline_coverage_lower_pct",
+        "regional_coverage_lower_pct",
+        "paired_change_pp",
+        "paired_design_se_pp",
+        "paired_design_ci_lower_pp",
+        "paired_design_ci_upper_pp",
+        "technical_missing_bound_lower_pp",
+        "technical_missing_bound_upper_pp",
+        "coverage_classification_switches",
+        "coverage_gains",
+        "coverage_losses",
+        "finite_paired_time_n",
+        "finite_time_improvements",
+        "finite_time_worsenings",
+        "finite_time_equal",
+        "mean_regional_minus_baseline_min",
+        "median_regional_minus_baseline_min",
+        "ht_population_change_point",
+        "ht_population_change_lower_bound",
+        "ht_population_change_upper_bound",
+        "covariance",
+        "profile",
+        "scope_name",
+        "scope_definition",
+        "profile_definition"
+      ],
+      "rows": 9
+    },
+    {
+      "path": "data/source_data/supplement_figures/FigureS2c_headway_sensitivity_source.csv",
+      "columns": [
+        "city",
+        "scope",
+        "mode",
+        "threshold_min",
+        "group",
+        "n",
+        "headway_change_pp",
+        "paired_gain_design_se_pp",
+        "headway_ci_lower_pp",
+        "headway_ci_upper_pp",
+        "headway_technical_lower_pp",
+        "headway_technical_upper_pp",
+        "ht_population_gain_point",
+        "ht_population_gain_lower_bound",
+        "ht_population_gain_upper_bound",
+        "lower_bound_design_se_pp",
+        "upper_bound_design_se_pp",
+        "ci_method",
+        "contrast",
+        "profile",
+        "scope_name",
+        "scope_definition",
+        "profile_definition"
+      ],
+      "rows": 9
+    },
+    {
+      "path": "data/source_data/supplement_figures/FigureS3_bogota_classification_source.csv",
+      "columns": [
+        "scenario",
+        "scope",
+        "mode",
+        "threshold",
+        "low_population",
+        "high_population",
+        "low_coverage",
+        "high_coverage",
+        "low_minus_high",
+        "city",
+        "profile",
+        "panel",
+        "classification_key",
+        "classification_label",
+        "classification_scenario_definition",
+        "facility_frame",
+        "low_minus_high_pp",
+        "grouping",
+        "threshold_min",
+        "group_definition",
+        "sampling_interval",
+        "scope_name",
+        "scope_definition",
+        "profile_definition"
+      ],
+      "rows": 20
+    },
+    {
+      "path": "data/tables/Main_Table_1.csv",
+      "columns": [
+        "Characteristic",
+        "São Paulo",
+        "Bogotá",
+        "Definition"
+      ],
+      "rows": 12
+    },
+    {
+      "path": "data/tables/Main_Table_2.csv",
+      "columns": [
+        "City",
+        "Inventory",
+        "Mode",
+        "15 min",
+        "30 min",
+        "45 min"
+      ],
+      "rows": 10
+    },
+    {
+      "path": "data/tables/Main_Table_3.csv",
+      "columns": [
+        "Departure request (local time)",
+        "São Paulo (n=220): D (95% CI)",
+        "Bogotá (n=200): D (95% CI)"
+      ],
+      "rows": 3
+    },
+    {
+      "path": "data/tables/table_s1_destination_constructs.csv",
+      "columns": [
+        "Inventory",
+        "Operational rule",
+        "Reference period and interpretation boundary"
+      ],
+      "rows": 5
+    },
+    {
+      "path": "data/tables/table_s2_sample_design.csv",
+      "columns": [
+        "City",
+        "Frozen design stratum",
+        "Eligible units (N_h)",
+        "Main sample (n_h)",
+        "Validation sample (n_h)",
+        "Main inclusion probability",
+        "Validation inclusion probability"
+      ],
+      "rows": 10
+    },
+    {
+      "path": "data/tables/table_s3a_classification_population.csv",
+      "columns": [
+        "Classification scheme",
+        "Group",
+        "Cells",
+        "Population",
+        "Share of frame population (%)"
+      ],
+      "rows": 32
+    },
+    {
+      "path": "data/tables/table_s3b_classification_wt_gradients.csv",
+      "columns": [
+        "Classification scheme",
+        "Low/high population (million)",
+        "Registry WT coverage low/high (%) and difference (pp)",
+        "Public-provider WT coverage low/high (%) and difference (pp)"
+      ],
+      "rows": 8
+    },
+    {
+      "path": "data/tables/table_s3c_classification_transitions.csv",
+      "columns": [
+        "Scheme",
+        "All labels changed (cells; population)",
+        "Entered low (cells; population)",
+        "Exited low (cells; population)",
+        "Entered high (cells; population)",
+        "Exited high (cells; population)"
+      ],
+      "rows": 8
+    },
+    {
+      "path": "data/tables/table_s4a_facility_flow.csv",
+      "columns": [
+        "Step",
+        "Count",
+        "Definition"
+      ],
+      "rows": 9
+    },
+    {
+      "path": "data/tables/table_s4b_facility_capacity_signals.csv",
+      "columns": [
+        "Candidate subset",
+        "Provider-status signal",
+        "Sites",
+        "Recorded capacity-category sums (Sala de Cirugía; Quirófano; total)"
+      ],
+      "rows": 7
+    },
+    {
+      "path": "data/tables/table_s4c_historical158_gradient.csv",
+      "columns": [
+        "Comparison frame",
+        "Inventory scope",
+        "Low-group WT coverage (%)",
+        "High-group WT coverage (%)",
+        "Low minus high (pp)"
+      ],
+      "rows": 4
+    },
+    {
+      "path": "data/tables/table_s5_gtfs_service_windows.csv",
+      "columns": [
+        "Feed and local request",
+        "GTFS mode and agency",
+        "Active trips or templates / routes",
+        "Scheduled stop departures",
+        "Frequency stop departures",
+        "Query treatment"
+      ],
+      "rows": 33
+    },
+    {
+      "path": "data/tables/table_s6_population_frame.csv",
+      "columns": [
+        "City and unit",
+        "Boundary source and selection",
+        "Origin inclusion rule",
+        "Population assignment and eligible frame"
+      ],
+      "rows": 2
+    },
+    {
+      "path": "data/tables/table_s7_sp_facility_boundary.csv",
+      "columns": [
+        "São Paulo facility rule",
+        "Sites",
+        "Interpretation"
+      ],
+      "rows": 5
+    },
+    {
+      "path": "data/tables/table_s8_candidate_depth_summary.csv",
+      "columns": [
+        "City",
+        "Comparison",
+        "Origins",
+        "Result and selected depth"
+      ],
+      "rows": 17
+    },
+    {
+      "path": "data/tables/table_s9_bogota_unweighted_30min.csv",
+      "columns": [
+        "Threshold_min",
+        "Destination_inventory_mode",
+        "Group",
+        "Origin_rows",
+        "Covered",
+        "Uncovered",
+        "No_returned_feasible_candidate",
+        "Unresolved",
+        "Technical"
+      ],
+      "rows": 20
+    },
+    {
+      "path": "data/tables/table_s9_display_30min.csv",
+      "columns": [
+        "Threshold (min)",
+        "Inventory / mode",
+        "Group",
+        "Origin rows",
+        "Covered",
+        "Uncovered",
+        "No pattern"
+      ],
+      "rows": 20
+    },
+    {
+      "path": "data/tables/table_s10_sensitivity_summary.csv",
+      "columns": [
+        "Analysis",
+        "Scope",
+        "Finding",
+        "Interpretation"
+      ],
+      "rows": 13
+    },
+    {
+      "path": "data/source_data/TableS10_sensitivity_summary_source.csv",
+      "columns": [
+        "Analysis",
+        "Scope",
+        "Finding",
+        "Interpretation"
+      ],
+      "rows": 13
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "reference": "candidate reference/figures PDFs",
+  "method": "PyMuPDF 72 dpi RGB raster comparison; text extraction, dimensions, raster pixels, panel letters (18-point A-H spans), and out-of-page text are read directly from each PDF.",
+  "figures": [
+    {
+      "figure": "Figure1_population_facilities.pdf",
+      "same_dimensions": true,
+      "text_identical": true,
+      "raster_dimensions": {
+        "artifact": [
+          519,
+          227
+        ],
+        "reference": [
+          519,
+          227
+        ]
+      },
+      "changed_pixel_fraction": 0.0,
+      "mean_absolute_channel_difference": 0.0,
+      "panel_letters_artifact": [
+        "A",
+        "B"
+      ],
+      "panel_letters_reference": [
+        "A",
+        "B"
+      ],
+      "out_of_page_text_count_artifact": 0,
+      "out_of_page_text_count_reference": 0
+    },
+    {
+      "figure": "Figure2_mode_scope_threshold.pdf",
+      "same_dimensions": true,
+      "text_identical": true,
+      "raster_dimensions": {
+        "artifact": [
+          519,
+          393
+        ],
+        "reference": [
+          519,
+          393
+        ]
+      },
+      "changed_pixel_fraction": 0.0,
+      "mean_absolute_channel_difference": 0.0,
+      "panel_letters_artifact": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "panel_letters_reference": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "out_of_page_text_count_artifact": 0,
+      "out_of_page_text_count_reference": 0
+    },
+    {
+      "figure": "Figure3_walk_caps.pdf",
+      "same_dimensions": true,
+      "text_identical": true,
+      "raster_dimensions": {
+        "artifact": [
+          519,
+          350
+        ],
+        "reference": [
+          519,
+          350
+        ]
+      },
+      "changed_pixel_fraction": 0.0,
+      "mean_absolute_channel_difference": 0.0,
+      "panel_letters_artifact": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "panel_letters_reference": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "out_of_page_text_count_artifact": 0,
+      "out_of_page_text_count_reference": 0
+    },
+    {
+      "figure": "Figure4_income_geography.pdf",
+      "same_dimensions": true,
+      "text_identical": true,
+      "raster_dimensions": {
+        "artifact": [
+          519,
+          468
+        ],
+        "reference": [
+          519,
+          468
+        ]
+      },
+      "changed_pixel_fraction": 0.0,
+      "mean_absolute_channel_difference": 0.0,
+      "panel_letters_artifact": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "panel_letters_reference": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "out_of_page_text_count_artifact": 0,
+      "out_of_page_text_count_reference": 0
+    },
+    {
+      "figure": "Figure5_validation_sensitivity.pdf",
+      "same_dimensions": true,
+      "text_identical": true,
+      "raster_dimensions": {
+        "artifact": [
+          519,
+          519
+        ],
+        "reference": [
+          519,
+          519
+        ]
+      },
+      "changed_pixel_fraction": 0.0,
+      "mean_absolute_channel_difference": 0.0,
+      "panel_letters_artifact": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "panel_letters_reference": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "out_of_page_text_count_artifact": 0,
+      "out_of_page_text_count_reference": 0
+    },
+    {
+      "figure": "FigureS1_car_time_sensitivity.pdf",
+      "same_dimensions": true,
+      "text_identical": true,
+      "raster_dimensions": {
+        "artifact": [
+          519,
+          263
+        ],
+        "reference": [
+          519,
+          263
+        ]
+      },
+      "changed_pixel_fraction": 0.0,
+      "mean_absolute_channel_difference": 0.0,
+      "panel_letters_artifact": [
+        "A",
+        "B"
+      ],
+      "panel_letters_reference": [
+        "A",
+        "B"
+      ],
+      "out_of_page_text_count_artifact": 0,
+      "out_of_page_text_count_reference": 0
+    },
+    {
+      "figure": "FigureS2_paired_sensitivity.pdf",
+      "same_dimensions": true,
+      "text_identical": true,
+      "raster_dimensions": {
+        "artifact": [
+          519,
+          396
+        ],
+        "reference": [
+          519,
+          396
+        ]
+      },
+      "changed_pixel_fraction": 0.0,
+      "mean_absolute_channel_difference": 0.0,
+      "panel_letters_artifact": [
+        "A",
+        "B",
+        "C"
+      ],
+      "panel_letters_reference": [
+        "A",
+        "B",
+        "C"
+      ],
+      "out_of_page_text_count_artifact": 0,
+      "out_of_page_text_count_reference": 0
+    },
+    {
+      "figure": "FigureS3_bogota_classification.pdf",
+      "same_dimensions": true,
+      "text_identical": true,
+      "raster_dimensions": {
+        "artifact": [
+          519,
+          375
+        ],
+        "reference": [
+          519,
+          375
+        ]
+      },
+      "changed_pixel_fraction": 0.0,
+      "mean_absolute_channel_difference": 0.0,
+      "panel_letters_artifact": [
+        "A",
+        "B"
+      ],
+      "panel_letters_reference": [
+        "A",
+        "B"
+      ],
+      "out_of_page_text_count_artifact": 0,
+      "out_of_page_text_count_reference": 0
+    }
+  ]
+}

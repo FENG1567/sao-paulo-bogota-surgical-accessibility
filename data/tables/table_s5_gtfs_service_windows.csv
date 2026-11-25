@@ -1,0 +1,34 @@
+Feed and local request,GTFS mode and agency,Active trips or templates / routes,Scheduled stop departures,Frequency stop departures,Query treatment
+SPTRANS 2026-11-11 07:30,subway/metro (1); SPTRANS,12 / 6,0,"1,740",Included
+SPTRANS 2026-11-11 07:30,rail (2); SPTRANS,14 / 7,0,838,Included
+SPTRANS 2026-11-11 07:30,bus (3); SPTRANS,"1,966 / 1,117",0,"131,671",Included
+SPTRANS 2026-11-12 08:30,subway/metro (1); SPTRANS,12 / 6,0,"1,750",Included
+SPTRANS 2026-11-12 08:30,rail (2); SPTRANS,14 / 7,0,852,Included
+SPTRANS 2026-11-12 08:30,bus (3); SPTRANS,"1,966 / 1,117",0,"127,708",Included
+SPTRANS 2026-11-14 12:00,subway/metro (1); SPTRANS,12 / 6,0,"1,174",Included
+SPTRANS 2026-11-14 12:00,rail (2); SPTRANS,14 / 7,0,882,Included
+SPTRANS 2026-11-14 12:00,bus (3); SPTRANS,"1,980 / 1,128",0,"111,023",Included
+SITP 2026-11-11 07:30,bus (3); Transmilenio-Troncal,"17,845 / 113","9,974",0,Included
+SITP 2026-11-11 07:30,bus (3); Transmilenio-Alimentadores,"11,950 / 142","4,868",0,Included
+SITP 2026-11-11 07:30,bus (3); Zonal-Urbano,"48,150 / 603","110,801",0,Included
+SITP 2026-11-11 07:30,bus (3); Zonal-Complementario,280 / 3,392,0,Included
+SITP 2026-11-11 07:30,bus (3); Zonal-Especial,93 / 4,47,0,Included
+SITP 2026-11-11 07:30,bus (3); Transmilenio-Dual,"2,027 / 13","2,068",0,Included
+SITP 2026-11-11 07:30,aerial_lift/cable (6); TransMiCable,6 / 1,0,807,Excluded: aerial cable
+SITP 2026-11-12 08:30,bus (3); Transmilenio-Troncal,"17,845 / 113","8,691",0,Included
+SITP 2026-11-12 08:30,bus (3); Transmilenio-Alimentadores,"11,950 / 142","4,287",0,Included
+SITP 2026-11-12 08:30,bus (3); Zonal-Urbano,"48,150 / 603","110,158",0,Included
+SITP 2026-11-12 08:30,bus (3); Zonal-Complementario,280 / 3,402,0,Included
+SITP 2026-11-12 08:30,bus (3); Zonal-Especial,93 / 4,44,0,Included
+SITP 2026-11-12 08:30,bus (3); Transmilenio-Dual,"2,027 / 13","1,837",0,Included
+SITP 2026-11-12 08:30,aerial_lift/cable (6); TransMiCable,6 / 1,0,787,Excluded: aerial cable
+SITP 2026-11-14 12:00,bus (3); Transmilenio-Troncal,"14,065 / 96","6,162",0,Included
+SITP 2026-11-14 12:00,bus (3); Transmilenio-Alimentadores,"9,714 / 129","3,031",0,Included
+SITP 2026-11-14 12:00,bus (3); Zonal-Urbano,"34,757 / 530","69,868",0,Included
+SITP 2026-11-14 12:00,bus (3); Zonal-Complementario,190 / 3,238,0,Included
+SITP 2026-11-14 12:00,bus (3); Zonal-Especial,78 / 4,43,0,Included
+SITP 2026-11-14 12:00,bus (3); Transmilenio-Dual,"1,787 / 12","1,115",0,Included
+SITP 2026-11-14 12:00,aerial_lift/cable (6); TransMiCable,6 / 1,0,786,Excluded: aerial cable
+ARTESP 2026-11-11 07:30,bus (3); ARTESP,"42,369 / 793","74,430",0,Regional sensitivity only
+ARTESP 2026-11-12 08:30,bus (3); ARTESP,"42,369 / 793","64,104",0,Regional sensitivity only
+ARTESP 2026-11-14 12:00,bus (3); ARTESP,"26,841 / 638","37,073",0,Regional sensitivity only

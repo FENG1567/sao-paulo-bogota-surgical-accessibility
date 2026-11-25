@@ -1,0 +1,45 @@
+{
+  "endpoint_by_city": {
+    "Sao Paulo": "http://127.0.0.1:8083/otp/transmodel/v3",
+    "Bogota": "http://127.0.0.1:8084/otp/transmodel/v3"
+  },
+  "date_time_by_city": {
+    "Sao Paulo": "2026-11-11T07:30:00-03:00",
+    "Bogota": "2026-11-11T07:30:00-05:00"
+  },
+  "profile": "baseline_fixed_departure",
+  "router_profile": {
+    "SP_graph_sha256": "763e0b4a464dc49b4533c22f368cd5ddf8a92c2dba039778c5716162979291d0",
+    "BO_graph_sha256": "663a5b34f895f53c68a26e8533c945a0ae1c04045e8082f209b7dc36257bc04b",
+    "runtime_max_access_egress_min": 90,
+    "network_extent": "whole_target_city_and_all_facilities_bbox_plus_0p1degree_complete_ways_routing_relations"
+  },
+  "workers": 1,
+  "batch_alias": 1,
+  "request_timeout_seconds": 600,
+  "max_retries": 3,
+  "k": 8,
+  "num_trip_patterns": 15,
+  "modes": {
+    "car": {
+      "literal": "{directMode:car}",
+      "args": "numTripPatterns:1,ignoreRealtimeUpdates:true"
+    },
+    "wt": {
+      "literal": "{accessMode:foot,egressMode:foot,directMode:foot,transportModes:[{transportMode:bus},{transportMode:rail}]}",
+      "args": "numTripPatterns:15,walkSpeed:1.33,ignoreRealtimeUpdates:true,arriveBy:false,searchWindow:60,maxDirectDurationForMode:[{streetMode:foot,duration:\"90m\"}],maxAccessEgressDurationForMode:[{streetMode:foot,duration:\"60m\"}]",
+      "measure_elapsed_from_request": true
+    },
+    "foot": {
+      "literal": "{directMode:foot}",
+      "args": "numTripPatterns:1,walkSpeed:1.33,ignoreRealtimeUpdates:true,maxDirectDurationForMode:[{streetMode:foot,duration:\"90m\"}]"
+    }
+  },
+  "materialize_every_batches": 0,
+  "primary_horizon_minutes": 60,
+  "time_definition": "WT expected arrival minus requested departure; direct car/foot duration from immediate requested departure",
+  "search_window_units": "Transmodel v3 minutes, not REST seconds; 60 minute window",
+  "access_limit_rationale": "every access leg of any journey arriving within 60min must itself take <=60min; retain direct foot search90min",
+  "worker_ceiling": 1,
+  "reproduction_note": "Scientific query parameters preserved from complete baseline; worker concurrency reduced from 8 to 1 for an explicit portable template. Supply external graphs/origin/facility inputs separately."
+}

@@ -1,0 +1,13 @@
+Characteristic,São Paulo,Bogotá,Definition
+Eligible origins,"26,889 census tracts","1,057 grid cells",Positive-population frozen frames
+Analyzed origins,"1,100","1,057",Stratified probability sample / complete eligible grid frame
+Eligible frame population,"11,451,999","9,433,784",IBGE 2022 / GHS-POP projected 2025 epoch
+Primary estimated population,"11,285,540","9,433,784",Population times inverse-inclusion probability / full grid population
+Unknown socioeconomic group,100 sampled tracts,673 grid cells,Retained in overall denominator
+Unknown-group population share,0.094%,9.93%,Estimated population share; differs from fraction of origins
+Registry destinations (R),339,142,SP registry surgical infrastructure / BO capacity-register-coordinate linked sites
+Restricted destinations (E),89,16,SP laparoscope/video SUS marker / BO ESE-public provider signal
+Historical activity-flag destinations (A),118,Not defined,Archived activity flag among R sites; coding/provenance limits in Supplementary Table S1
+Temporal validation origins,220,200,Fixed probability samples; design intervals apply in both cities
+Facility source periods,CNES 2025; equipment/activity 2024,Capacity 2022-11-05; REPS 2026-03-12,SP registry month unknown; exact rules in Supplementary Table S1
+Origin location,Tract representative point,Eligible population-grid cell center,Origin resolution differs; no address-level coverage claim

@@ -1,0 +1,6 @@
+"São Paulo facility rule","Sites","Interpretation"
+"Primary CNES R inventory","339","The primary cap_M0 set uses the declared surgical-center/hospital-care/type definition; coordinates are retained as supplied."
+"CNES municipality-code 355030 subset","185","A source municipality-code sensitivity; not a coordinate-in-polygon filter."
+"Primary R coordinates inside frozen polygon","182","Geometric point-in-polygon count."
+"Primary R coordinates outside frozen polygon","157","Geometric point-outside count; does not equal the 339−185=154 site-count difference."
+"Set discordance","7","Five sites are code-subset members but coordinate-outside; two are coordinate-inside but outside the code subset."

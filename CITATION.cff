@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "Please cite this reproduction package and the associated article when using these materials."
+type: software
+repository-code: "https://github.com/FENG1567/sao-paulo-bogota-surgical-accessibility"
+url: "https://github.com/FENG1567/sao-paulo-bogota-surgical-accessibility/releases/tag/v2026.11.25"
+title: "Surgical facility accessibility in Sao Paulo and Bogota: reproduction package"
+version: 2026.11.25
+date-released: '2026-11-25'
+license: MIT
+authors:
+  - family-names: Feng
+    given-names: Shuo
+  - family-names: Shi
+    given-names: Chao
+  - family-names: Liu
+    given-names: Tianming
+  - family-names: Ding
+    given-names: Haoran
+  - family-names: Hang
+    given-names: Fenghe
+  - family-names: Huang
+    given-names: Zhenghao
+  - family-names: Meng
+    given-names: Xianzhi
+    email: mengxianzhi@hrbmu.edu.cn
+abstract: "Author code and derived results for reproducing surgical-facility accessibility estimates and publication figures in Sao Paulo and Bogota. Code uses MIT; author-owned result data use CC BY 4.0 with separate third-party notices."

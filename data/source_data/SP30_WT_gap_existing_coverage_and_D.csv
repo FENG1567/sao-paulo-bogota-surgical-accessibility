@@ -1,0 +1,4 @@
+city,metric,scope,estimate_pct,threshold_min,profile,source_file,design_se_pp,design_ci_lower_pp,design_ci_upper_pp,missing_bound_lower_pp,missing_bound_upper_pp
+Sao Paulo,Existing weighted WT lower coverage,E,34.49140947885982,30,baseline_fixed_departure,results/coverage_curves.csv,,,,,
+Sao Paulo,Existing weighted WT lower coverage,R,57.5859668577667,30,baseline_fixed_departure,results/coverage_curves.csv,,,,,
+Sao Paulo,Existing paired D (R minus E scope contrast),R−E,22.746972717556023,30,baseline_fixed_departure,results/mode_scope_contrasts.csv,1.4674714198504568,19.870728734649127,25.623216700462915,22.746972717556023,22.746972717556023

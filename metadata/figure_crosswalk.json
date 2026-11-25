@@ -1,0 +1,34 @@
+{
+  "figures": {
+    "Figure1_population_facilities.pdf": [
+      "Figure1_facility_scenario_counts.csv",
+      "Table1_population_facility_source.csv"
+    ],
+    "Figure2_mode_scope_threshold.pdf": [
+      "Figure2_main_curve_source.csv",
+      "Figure2_paired_scope_contrast_source.csv"
+    ],
+    "Figure3_walk_caps.pdf": [
+      "Figure3_paired_mode_source.csv"
+    ],
+    "Figure4_income_geography.pdf": [
+      "Figure4_income_gradient_source.csv",
+      "Figure4_origin_classification_source.csv"
+    ],
+    "Figure5_validation_sensitivity.pdf": [
+      "Figure5_sensitivity_source.csv",
+      "Figure5_validation_sensitivity_source.csv"
+    ],
+    "FigureS1_car_time_sensitivity.pdf": [
+      "supplement_figures/FigureS1_car_time_sensitivity_source.csv"
+    ],
+    "FigureS2_paired_sensitivity.pdf": [
+      "supplement_figures/FigureS2a_activity_expansion_source.csv",
+      "supplement_figures/FigureS2b_regional_sensitivity_source.csv",
+      "supplement_figures/FigureS2c_headway_sensitivity_source.csv"
+    ],
+    "FigureS3_bogota_classification.pdf": [
+      "supplement_figures/FigureS3_bogota_classification_source.csv"
+    ]
+  }
+}

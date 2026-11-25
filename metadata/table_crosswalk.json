@@ -1,0 +1,114 @@
+{
+  "tables": [
+    {
+      "source": "Main_Table_1.csv",
+      "table": "Table 1",
+      "output": "Table_1",
+      "role": "publication"
+    },
+    {
+      "source": "Main_Table_2.csv",
+      "table": "Table 2",
+      "output": "Table_2",
+      "role": "publication"
+    },
+    {
+      "source": "Main_Table_3.csv",
+      "table": "Table 3",
+      "output": "Table_3",
+      "role": "publication",
+      "source_data": "Table3_current_display_source.csv"
+    },
+    {
+      "source": "table_s1_destination_constructs.csv",
+      "table": "Table S1",
+      "output": "Table_S1",
+      "role": "publication"
+    },
+    {
+      "source": "table_s2_sample_design.csv",
+      "table": "Table S2",
+      "output": "Table_S2",
+      "role": "publication"
+    },
+    {
+      "source": "table_s3a_classification_population.csv",
+      "table": "Table S3A",
+      "output": "Table_S3A",
+      "role": "publication"
+    },
+    {
+      "source": "table_s3b_classification_wt_gradients.csv",
+      "table": "Table S3B",
+      "output": "Table_S3B",
+      "role": "publication"
+    },
+    {
+      "source": "table_s3c_classification_transitions.csv",
+      "table": "Table S3C",
+      "output": "Table_S3C",
+      "role": "publication"
+    },
+    {
+      "source": "table_s4a_facility_flow.csv",
+      "table": "Table S4A",
+      "output": "Table_S4A",
+      "role": "publication"
+    },
+    {
+      "source": "table_s4b_facility_capacity_signals.csv",
+      "table": "Table S4B",
+      "output": "Table_S4B",
+      "role": "publication"
+    },
+    {
+      "source": "table_s4c_historical158_gradient.csv",
+      "table": "Table S4C",
+      "output": "Table_S4C",
+      "role": "publication"
+    },
+    {
+      "source": "table_s5_gtfs_service_windows.csv",
+      "table": "Table S5",
+      "output": "Table_S5",
+      "role": "publication"
+    },
+    {
+      "source": "table_s6_population_frame.csv",
+      "table": "Table S6",
+      "output": "Table_S6",
+      "role": "publication"
+    },
+    {
+      "source": "table_s7_sp_facility_boundary.csv",
+      "table": "Table S7",
+      "output": "Table_S7",
+      "role": "publication"
+    },
+    {
+      "source": "table_s8_candidate_depth_summary.csv",
+      "table": "Table S8",
+      "output": "Table_S8",
+      "role": "publication"
+    },
+    {
+      "source": "table_s9_display_30min.csv",
+      "table": "Table S9",
+      "output": "Table_S9",
+      "role": "publication"
+    },
+    {
+      "source": "table_s10_sensitivity_summary.csv",
+      "table": "Table S10",
+      "output": "Table_S10",
+      "role": "publication",
+      "source_data": "TableS10_sensitivity_summary_source.csv"
+    },
+    {
+      "source": "table_s9_bogota_unweighted_30min.csv",
+      "table": "Table S9 auxiliary full fields",
+      "output": "Table_S9_full_fields",
+      "role": "auxiliary"
+    }
+  ]
+}

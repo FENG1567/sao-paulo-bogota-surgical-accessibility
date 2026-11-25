@@ -1,0 +1,164 @@
+{
+  "sources": [
+    {
+      "source_key": "Bogota_capacity",
+      "description": "National installed-capacity records",
+      "reference_period": "5 November 2022",
+      "version_or_identifier": "s2ru-bqt6",
+      "source_url": "https://www.datos.gov.co/d/s2ru-bqt6",
+      "retrieval_record": "2026-11-09",
+      "source_scope": "Tabular capacity source; source metadata identify the cutoff. Coordinates are a separate input.",
+      "original_files_included": "no",
+      "rights": "Provider terms; no author relicensing of original records"
+    },
+    {
+      "source_key": "Bogota_site_register",
+      "description": "REPS site register",
+      "reference_period": "12 March 2026",
+      "version_or_identifier": "c36g-9fc2",
+      "source_url": "https://www.datos.gov.co/d/c36g-9fc2",
+      "retrieval_record": "2026-11-09",
+      "source_scope": "Later register linkage; a nonmatch is not classified as closure.",
+      "original_files_included": "no",
+      "rights": "Provider terms; no author relicensing of original records"
+    },
+    {
+      "source_key": "Bogota_coordinate_layer",
+      "description": "Local hospital-point layer",
+      "reference_period": "not recorded",
+      "version_or_identifier": "hospital_points_bogota.csv",
+      "source_url": "",
+      "retrieval_record": "not recorded",
+      "source_scope": "Original source URL/date not recorded for the historical-capacity coordinate layer.",
+      "original_files_included": "no",
+      "rights": "Provider terms; no author relicensing of original records"
+    },
+    {
+      "source_key": "Bogota_estrato",
+      "description": "Residential-block estrato polygons",
+      "reference_period": "not established",
+      "version_or_identifier": "ManzanaEstratificacion; recorded catalog/GeoPackage update 2025-11-20; value reference year unknown",
+      "source_url": "https://datosabiertos.bogota.gov.co/dataset/estratificacion-para-bogota",
+      "retrieval_record": "not recorded",
+      "source_scope": "Area-weighted residential-block estrato classification of population-grid origins; update date is not the observation/reference year",
+      "original_files_included": "no",
+      "rights": "Official Bogota portal identifies CC BY 4.0 for the Manzana Estratificacion resource; retain Secretaria Distrital de Planeacion attribution",
+      "rights_source_url": "https://datosabiertos.bogota.gov.co/dataset/?license_id=CC-BY-4.0&organization=secretaria-distrital-de-planeacion&q=estratificaci%C3%B3n&tags=Ordenamiento+territorial&tags=Planeamiento"
+    },
+    {
+      "source_key": "CNES_registry",
+      "description": "Registry surgical infrastructure",
+      "reference_period": "source-labelled 2025",
+      "version_or_identifier": "CNES",
+      "source_url": "https://dadosabertos.saude.gov.br/dataset/cnes-cadastro-nacional-de-estabelecimentos-de-saude",
+      "retrieval_record": "not recorded",
+      "source_scope": "Exact registry reference month not established.",
+      "original_files_included": "no",
+      "rights": "Provider terms; no author relicensing of original records"
+    },
+    {
+      "source_key": "CNES_equipment",
+      "description": "Equipment records",
+      "reference_period": "12 monthly 2024 files",
+      "version_or_identifier": "type/item 0335; IND_SUS",
+      "source_url": "https://wiki.saude.gov.br/cnes/index.php/Equipamentos",
+      "retrieval_record": "not recorded",
+      "source_scope": "Institutional reference identifies the equipment code; exact downloaded file metadata are incomplete.",
+      "original_files_included": "no",
+      "rights": "Provider terms; no author relicensing of original records"
+    },
+    {
+      "source_key": "SIH_SUS",
+      "description": "Hospital surgical claims",
+      "reference_period": "12 monthly 2024 files",
+      "version_or_identifier": "PROC_REA begins 04",
+      "source_url": "https://datasus.saude.gov.br/transferencia-de-arquivos/",
+      "retrieval_record": "not recorded",
+      "source_scope": "Exact downloaded file identifiers are not fully recorded.",
+      "original_files_included": "no",
+      "rights": "Provider terms; no author relicensing of original records"
+    },
+    {
+      "source_key": "SPTrans_GTFS",
+      "description": "Primary Sao Paulo transit feed",
+      "reference_period": "calendar 2023-10-01 to 2027-01-01",
+      "version_or_identifier": "",
+      "source_url": "https://www.sptrans.com.br/desenvolvedores",
+      "retrieval_record": "not recorded",
+      "source_scope": "No feed_info.txt; capture identifier/date not established.",
+      "original_files_included": "no",
+      "rights": "Provider terms; no author relicensing of original records"
+    },
+    {
+      "source_key": "SITP_GTFS",
+      "description": "Primary Bogota transit feed",
+      "reference_period": "calendar 2026-01-01 to 2026-12-31",
+      "version_or_identifier": "version 1",
+      "source_url": "https://datosabiertos.bogota.gov.co/dataset/especificacion-gtfs-general-transit-feed-specification-sitp",
+      "retrieval_record": "2026-11-11",
+      "source_scope": "Bus inputs; cable excluded from the baseline.",
+      "original_files_included": "no",
+      "rights": "Provider terms; no author relicensing of original records"
+    },
+    {
+      "source_key": "OSM_boundary",
+      "description": "Bogota administrative polygon",
+      "reference_period": "snapshot 8 November 2026",
+      "version_or_identifier": "largest matched feature at admin level 4 or 6",
+      "source_url": "https://www.openstreetmap.org/copyright/en?locale=en-GB",
+      "retrieval_record": "not recorded",
+      "source_scope": "Selected feature ID and exact administrative level not retained.",
+      "original_files_included": "no",
+      "rights": "OpenStreetMap contributors; ODbL source database; original not included"
+    },
+    {
+      "source_key": "GHS_POP",
+      "description": "Population grid",
+      "reference_period": "projected 2025 epoch",
+      "version_or_identifier": "R2023A; 30 arc seconds",
+      "source_url": "https://doi.org/10.2905/2FF68A52-5B5B-4A22-8F40-C41DA8332CFE",
+      "retrieval_record": "not recorded",
+      "source_scope": "Positive full-cell populations retained by center-in inclusion.",
+      "original_files_included": "no",
+      "rights": "CC BY 4.0 (European Commission/JRC source; attribution required)"
+    },
+    {
+      "source_key": "OTP",
+      "description": "Routing software",
+      "reference_period": "2.8.0",
+      "version_or_identifier": "bfcdc79fcd4493f600c4c3a85eeba8fcc7ed8f18",
+      "source_url": "https://github.com/opentripplanner/OpenTripPlanner/tree/bfcdc79fcd4493f600c4c3a85eeba8fcc7ed8f18",
+      "retrieval_record": "2026-11-25",
+      "source_scope": "Versioned source paths and frequency timing rule are described with Supplementary Table S5.",
+      "original_files_included": "no",
+      "rights": "LGPL-3.0 upstream software; not bundled"
+    },
+    {
+      "source_key": "IBGE_Census2022",
+      "description": "Census 2022 CD2022 census sectors, total persons and responsible-person mean income",
+      "reference_period": "Population reference date 31 July 2022; income reference month July 2022",
+      "version_or_identifier": "CD2022, CD_MUN=3550308; V0001 total persons; V06004 nominal monthly mean income among household responsible persons with income",
+      "source_url": "https://www.ibge.gov.br/estatisticas/sociais/populacao/22827-censo-demografico-2022.html?edicao=41852&t=downloads",
+      "retrieval_record": "Exact original archive capture date not retained; local official dictionaries dated 2026-05-20 (population) and 2026-05-08 (income)",
+      "source_scope": "SP whole-tract population and representative-point geometry; income-derived quintiles, with unmatched income retained as unknown",
+      "original_files_included": "no",
+      "rights": "IBGE source attribution and applicable provider terms; no author relicensing of original census database",
+      "geometry_source_url": "https://www.ibge.gov.br/geociencias/organizacao-do-territorio/malhas-territoriais/26565-malhas-de-setores-censitarios-divisoes-intramunicipais.html"
+    },
+    {
+      "source_key": "ARTESP_GTFS",
+      "description": "Regional bus GTFS used for supplementary regional-network sensitivity",
+      "reference_period": "Service calendar 2026-01-01 to 2026-12-31; feed version 20261109",
+      "version_or_identifier": "Resource 061f18c6-e294-42ca-92ce-52d3030ee12d; ARTESP 20261109",
+      "source_url": "https://dadosabertos.artesp.sp.gov.br/dataset/gtfs",
+      "retrieval_record": "2026-11-15T17:30:11Z; recorded original SHA-256 in raw_input_fingerprints.json",
+      "source_scope": "Supplementary Figure S2B regional-transit sensitivity, not the main baseline",
+      "original_files_included": "no",
+      "rights": "Provider page identifies Creative Commons Atribuicao; licence version unspecified in the frozen record; original not relicensed or bundled"
+    }
+  ],
+  "notes": [
+    "Metadata gaps are retained as not recorded/not established; no current download is substituted for an unknown historical snapshot.",
+    "Hashes for included files are recorded in metadata/release_manifest.json. No hash is claimed for an unavailable third-party original."
+  ]
+}

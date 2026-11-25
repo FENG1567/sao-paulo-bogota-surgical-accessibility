@@ -1,0 +1,10 @@
+{
+  "routingDefaults": {
+    "accessEgress": {
+      "maxDuration": "90m",
+      "maxDurationForMode": {
+        "WALK": "90m"
+      }
+    }
+  }
+}

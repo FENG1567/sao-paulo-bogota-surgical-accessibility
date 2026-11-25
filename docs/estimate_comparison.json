@@ -1,0 +1,119 @@
+{
+  "status": "PASS",
+  "absolute_tolerance": 1e-10,
+  "comparisons": {
+    "Table2": {
+      "status": "PASS",
+      "matched_rows": 90,
+      "columns": {
+        "coverage_lower": {
+          "finite_pairs": 90,
+          "both_missing": 0,
+          "max_absolute_error": 1.4210854715202004e-14
+        },
+        "coverage_upper": {
+          "finite_pairs": 90,
+          "both_missing": 0,
+          "max_absolute_error": 1.4210854715202004e-14
+        },
+        "design_se": {
+          "finite_pairs": 90,
+          "both_missing": 0,
+          "max_absolute_error": 2.220446049250313e-16
+        },
+        "design_ci_lower": {
+          "finite_pairs": 54,
+          "both_missing": 36,
+          "max_absolute_error": 1.4210854715202004e-14
+        },
+        "design_ci_upper": {
+          "finite_pairs": 54,
+          "both_missing": 36,
+          "max_absolute_error": 1.4210854715202004e-14
+        },
+        "sampled_population": {
+          "finite_pairs": 90,
+          "both_missing": 0,
+          "max_absolute_error": 0.0
+        },
+        "estimated_population": {
+          "finite_pairs": 90,
+          "both_missing": 0,
+          "max_absolute_error": 0.0
+        },
+        "n": {
+          "finite_pairs": 90,
+          "both_missing": 0,
+          "max_absolute_error": 0.0
+        }
+      }
+    },
+    "Figure2_curve": {
+      "status": "PASS",
+      "matched_rows": 330,
+      "columns": {
+        "coverage_lower": {
+          "finite_pairs": 330,
+          "both_missing": 0,
+          "max_absolute_error": 1.4210854715202004e-14
+        },
+        "coverage_upper": {
+          "finite_pairs": 330,
+          "both_missing": 0,
+          "max_absolute_error": 1.4210854715202004e-14
+        },
+        "design_se": {
+          "finite_pairs": 330,
+          "both_missing": 0,
+          "max_absolute_error": 2.220446049250313e-16
+        },
+        "design_ci_lower": {
+          "finite_pairs": 198,
+          "both_missing": 132,
+          "max_absolute_error": 1.4210854715202004e-14
+        },
+        "design_ci_upper": {
+          "finite_pairs": 198,
+          "both_missing": 132,
+          "max_absolute_error": 1.4210854715202004e-14
+        }
+      }
+    },
+    "Figure2_paired": {
+      "status": "PASS",
+      "matched_rows": 33,
+      "columns": {
+        "contrast": {
+          "finite_pairs": 33,
+          "both_missing": 0,
+          "max_absolute_error": 3.552713678800501e-15
+        },
+        "design_se": {
+          "finite_pairs": 33,
+          "both_missing": 0,
+          "max_absolute_error": 2.220446049250313e-16
+        },
+        "design_ci_lower": {
+          "finite_pairs": 22,
+          "both_missing": 11,
+          "max_absolute_error": 3.552713678800501e-15
+        },
+        "design_ci_upper": {
+          "finite_pairs": 22,
+          "both_missing": 11,
+          "max_absolute_error": 3.552713678800501e-15
+        },
+        "missing_bound_lower": {
+          "finite_pairs": 33,
+          "both_missing": 0,
+          "max_absolute_error": 3.552713678800501e-15
+        },
+        "missing_bound_upper": {
+          "finite_pairs": 33,
+          "both_missing": 0,
+          "max_absolute_error": 3.552713678800501e-15
+        }
+      }
+    }
+  }
+}
